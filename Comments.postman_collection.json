@@ -1,0 +1,1271 @@
+{
+  "info": {
+    "_postman_id": "f1cda1ae-5228-464f-9e80-b21f78b4c9a0",
+    "name": "Comments",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53113142"
+  },
+  "item": [
+    {
+      "name": "Вывод всех комментариев",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "a19baac8cc0149311897c9d49a354d684b47d54d95bfb29a7d2bbb72bd9461de",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/comments",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "comments"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Вывод всех комментариев",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://gorest.co.in/public/v2/comments",
+              "protocol": "https",
+              "host": [
+                "gorest",
+                "co",
+                "in"
+              ],
+              "path": [
+                "public",
+                "v2",
+                "comments"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 14 May 2026 09:28:35 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "content-security-policy-report-only",
+              "value": "default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-9UWvyHHtud26SMjcbebdEA=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"0d3431993db028a38604061d45fb8a80\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-links-current",
+              "value": "https://gorest.co.in/public/v2/comments?page=1"
+            },
+            {
+              "key": "x-links-next",
+              "value": "https://gorest.co.in/public/v2/comments?page=2"
+            },
+            {
+              "key": "x-links-previous",
+              "value": ""
+            },
+            {
+              "key": "x-pagination-limit",
+              "value": "10"
+            },
+            {
+              "key": "x-pagination-page",
+              "value": "1"
+            },
+            {
+              "key": "x-pagination-pages",
+              "value": "296"
+            },
+            {
+              "key": "x-pagination-total",
+              "value": "2960"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-request-id",
+              "value": "bd0b4974-da6f-4f2e-9464-c73cce6fbc5b"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.017593"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SdGuY4lQ6n2xbcfkqDDXk0TLeVwd%2FVpMuYdlWVbeeH8EVx79u3AkfV7OMpcFFUcGtra5lfajN%2Bq5CagBnUfCnjB0727RZm5T0gGkyrwEONGpIEIO5xImNflQiYXOl0s%3D\"}]}"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "9fb8dfa35def269f-ARN"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 188718,\n        \"post_id\": 280467,\n        \"name\": \"Samir Gill\",\n        \"email\": \"gill_samir@wolff-boyer.example\",\n        \"body\": \"Nihil libero perferendis. In nobis est.\"\n    },\n    {\n        \"id\": 188717,\n        \"post_id\": 280467,\n        \"name\": \"Trilokesh Guneta\",\n        \"email\": \"trilokesh_guneta@wisoky-adams.test\",\n        \"body\": \"Impedit laudantium et. Ea delectus debitis. Repudiandae delectus iste.\"\n    },\n    {\n        \"id\": 188705,\n        \"post_id\": 280452,\n        \"name\": \"Karunanidhi Sethi\",\n        \"email\": \"sethi_karunanidhi@pfeffer.example\",\n        \"body\": \"Voluptates at molestias. Sequi nesciunt dolore.\"\n    },\n    {\n        \"id\": 188675,\n        \"post_id\": 280437,\n        \"name\": \"Aatmaj Khatri\",\n        \"email\": \"aatmaj_khatri@pacocha-robel.test\",\n        \"body\": \"Et quae consequatur.\"\n    },\n    {\n        \"id\": 188674,\n        \"post_id\": 280437,\n        \"name\": \"Vyas Reddy\",\n        \"email\": \"reddy_vyas@ryan.example\",\n        \"body\": \"Aperiam quo at. Quia beatae neque. Explicabo ea molestiae.\"\n    },\n    {\n        \"id\": 188673,\n        \"post_id\": 280436,\n        \"name\": \"Dr. Agniprava Iyer\",\n        \"email\": \"dr_agniprava_iyer@parker.test\",\n        \"body\": \"Placeat repellat quia. Sed et consequatur. Possimus et minima.\"\n    },\n    {\n        \"id\": 188672,\n        \"post_id\": 280436,\n        \"name\": \"Siddhi Gill\",\n        \"email\": \"gill_siddhi@reichel.test\",\n        \"body\": \"Qui voluptatem dolor. Quia velit voluptas. Delectus quod iusto.\"\n    },\n    {\n        \"id\": 188671,\n        \"post_id\": 280435,\n        \"name\": \"Girija Namboothiri\",\n        \"email\": \"girija_namboothiri@nikolaus-bartell.test\",\n        \"body\": \"Laboriosam quia vero. Omnis veritatis laborum. Excepturi dolores minima. Et omnis pariatur.\"\n    },\n    {\n        \"id\": 188670,\n        \"post_id\": 280433,\n        \"name\": \"Miss Adityanandana Ganaka\",\n        \"email\": \"ganaka_adityanandana_miss@mann-mraz.test\",\n        \"body\": \"Modi reiciendis tempore. Facere odit quia. Earum vero nemo.\"\n    },\n    {\n        \"id\": 188669,\n        \"post_id\": 280433,\n        \"name\": \"Chandani Gandhi Jr.\",\n        \"email\": \"gandhi_chandani_jr@lemke.example\",\n        \"body\": \"Adipisci sit voluptatibus. Qui nemo consequatur.\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Вывод одного комментария",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/comments/188718",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "comments",
+            "188718"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Вывод одного комментария",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://gorest.co.in/public/v2/comments/188718",
+              "protocol": "https",
+              "host": [
+                "gorest",
+                "co",
+                "in"
+              ],
+              "path": [
+                "public",
+                "v2",
+                "comments",
+                "188718"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 14 May 2026 09:34:07 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "content-security-policy-report-only",
+              "value": "default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-wPZkesQ//fK73+Ml2izGtA=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"4f896a02daff2bf541c3d0a07ec9f1f1\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-request-id",
+              "value": "7103679d-0647-41f9-b1cc-67aafa766de1"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.016220"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=l4sHojkWRakwow7J46XPfVDRzAIWHDjCEY43jYc73OVIiE6gno6dWqi7IZc5IxiLajXdkQRyp7SB1LfP220LhNy8EZghKLVSNFiAnVhO53oR46EJj9K6fhSAwjc2ePY%3D\"}]}"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "9fb8e7bdcb736dac-ARN"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 188718,\n    \"post_id\": 280467,\n    \"name\": \"Samir Gill\",\n    \"email\": \"gill_samir@wolff-boyer.example\",\n    \"body\": \"Nihil libero perferendis. In nobis est.\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Создание 1 комментария",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "\r\n {\r\n     \"post_id\": 280770,\r\n     \"name\": \"Batman\",\r\n     \"email\": \"batmantest@bk.ru\",\r\n     \"body\": \"New com about batman\"\r\n }\r\n\r\n \r\n ",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/comments",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "comments"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Создание 1 комментария",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "\r\n {\r\n     \"post_id\": 280770,\r\n     \"name\": \"Batman\",\r\n     \"email\": \"batmantest@bk.ru\",\r\n     \"body\": \"New com about batman\"\r\n }\r\n\r\n \r\n ",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://gorest.co.in/public/v2/comments",
+              "protocol": "https",
+              "host": [
+                "gorest",
+                "co",
+                "in"
+              ],
+              "path": [
+                "public",
+                "v2",
+                "comments"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 201
+            },
+            {
+              "key": "date",
+              "value": "Sun, 17 May 2026 13:49:21 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "103"
+            },
+            {
+              "key": "location",
+              "value": "https://gorest.co.in/public/v2/comments/189031"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "content-security-policy-report-only",
+              "value": "default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-wTz6fom4Xa2E9Xij8EGk2Q=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"2601896731a0c5ba6f951a4aba7fccd9\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-ratelimit-limit",
+              "value": "90"
+            },
+            {
+              "key": "x-ratelimit-remaining",
+              "value": "89"
+            },
+            {
+              "key": "x-ratelimit-reset",
+              "value": "1"
+            },
+            {
+              "key": "x-request-id",
+              "value": "34891d8a-8d53-4fc3-b190-34f8fe72bb71"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.089461"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=V4Dmi9lFxnimIss6F2f9Hbtm14L0XkJQIhhDaz9ZdiI8ZhM%2FXcPNaf8vwXLlVGQ8XPmul%2FKqFbhH4ZNLYuGAITItKS6Lr%2BuyhITiJF1AKAibonPtKzGLVPyOguff%2B5g%3D\"}]}"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "9fd315be1cd2d9c3-ARN"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 189031,\n    \"post_id\": 280770,\n    \"name\": \"Batman\",\n    \"email\": \"batmantest@bk.ru\",\n    \"body\": \"New com about batman\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Изменение комментария",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\": 188768,\r\n    \"post_id\": 280467,\r\n    \"name\": \"Batman\",\r\n    \"email\": \"batmantest@bk.ru\",\r\n    \"body\": \"New com about cat\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/comments/188768",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "comments",
+            "188768"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Изменение комментария",
+          "originalRequest": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"id\": 188768,\r\n    \"post_id\": 280467,\r\n    \"name\": \"Batman\",\r\n    \"email\": \"batmantest@bk.ru\",\r\n    \"body\": \"New com about cat\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://gorest.co.in/public/v2/comments/188768",
+              "protocol": "https",
+              "host": [
+                "gorest",
+                "co",
+                "in"
+              ],
+              "path": [
+                "public",
+                "v2",
+                "comments",
+                "188768"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 14 May 2026 10:46:10 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "content-security-policy-report-only",
+              "value": "default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-GSROymKp2sgMMn/lUOJVeg=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"2caac77a9faf3b9c14e4f454d4943c93\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-ratelimit-limit",
+              "value": "90"
+            },
+            {
+              "key": "x-ratelimit-remaining",
+              "value": "89"
+            },
+            {
+              "key": "x-ratelimit-reset",
+              "value": "1"
+            },
+            {
+              "key": "x-request-id",
+              "value": "39ba3cab-5733-4020-b606-619fa101548e"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.036628"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=616RdNY%2Bxvwwj%2BsejjHaFrxejcdgVNo7Mfzh2C096Eyk5jg0tJCPR%2FQbAi0gIK2NAsHgJq9QOKhlaQbofkG50KV5YFRDXlJOhdZNVnV8cwR7QHW0Olwmgx9Gi5xOF8o%3D\"}]}"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "9fb9514628b641ae-ARN"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 188768,\n    \"post_id\": 280467,\n    \"name\": \"Batman\",\n    \"email\": \"batmantest@bk.ru\",\n    \"body\": \"New com about cat\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Удаление комментария",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/comments/188768",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "comments",
+            "188768"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Удаление комментария",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "https://gorest.co.in/public/v2/comments/188768",
+              "protocol": "https",
+              "host": [
+                "gorest",
+                "co",
+                "in"
+              ],
+              "path": [
+                "public",
+                "v2",
+                "comments",
+                "188768"
+              ]
+            }
+          },
+          "status": "No Content",
+          "code": 204,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 204
+            },
+            {
+              "key": "date",
+              "value": "Thu, 14 May 2026 10:50:37 GMT"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "key": "content-security-policy-report-only",
+              "value": "default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-T+fDa0WM4B/ov4GNG0q8gg=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-ratelimit-limit",
+              "value": "90"
+            },
+            {
+              "key": "x-ratelimit-remaining",
+              "value": "89"
+            },
+            {
+              "key": "x-ratelimit-reset",
+              "value": "1"
+            },
+            {
+              "key": "x-request-id",
+              "value": "2a9385cb-3b2c-4d86-b655-45ed29c87b8e"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.043403"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HZjI83uamuew534UYpgfdIV6K%2Fx0sLajymAgOlBU1%2BnOq%2BwRwB3ciCyzEtt9LoClBiDYdV%2FSfsw0RiAC9DeLlVVXQNjgrK4tnt0%2F39jGGffdvfMq6sxa0RkufniW02Y%3D\"}]}"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "9fb957cc6d9d9924-ARN"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": null
+        }
+      ]
+    },
+    {
+      "name": "Фильтрация комментария по определенному посту",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/posts/280433/comments",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "posts",
+            "280433",
+            "comments"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Фильтрация комментария по определенному посту",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://gorest.co.in/public/v2/posts/280433/comments",
+              "protocol": "https",
+              "host": [
+                "gorest",
+                "co",
+                "in"
+              ],
+              "path": [
+                "public",
+                "v2",
+                "posts",
+                "280433",
+                "comments"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 14 May 2026 11:00:33 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "content-security-policy-report-only",
+              "value": "default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-dSQRFO231Co2I6f6RRvTIA=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"c145208ad2d497735bf73d16b58b8722\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-links-current",
+              "value": "https://gorest.co.in/public/v2/comments?page=1"
+            },
+            {
+              "key": "x-links-next",
+              "value": "https://gorest.co.in/public/v2/comments?page=2"
+            },
+            {
+              "key": "x-links-previous",
+              "value": ""
+            },
+            {
+              "key": "x-pagination-limit",
+              "value": "10"
+            },
+            {
+              "key": "x-pagination-page",
+              "value": "1"
+            },
+            {
+              "key": "x-pagination-pages",
+              "value": "1"
+            },
+            {
+              "key": "x-pagination-total",
+              "value": "2"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-ratelimit-limit",
+              "value": "90"
+            },
+            {
+              "key": "x-ratelimit-remaining",
+              "value": "89"
+            },
+            {
+              "key": "x-ratelimit-reset",
+              "value": "1"
+            },
+            {
+              "key": "x-request-id",
+              "value": "3503dc1a-2587-4950-a0a4-373b9a7ebd49"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.026539"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=f5QovHWuUJfolDLc8qjHIFIt38N%2BgpaUc4n1H3sgiOcMbgh1hCFTYA26JOxt2UDcWm6aFlyRrF3JdZORLAZqv4T2Jg4kPr%2BMQs%2FstQi5End5wM%2BPQG8GexbgEb%2FxILk%3D\"}]}"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "9fb966595c47349b-ARN"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 188670,\n        \"post_id\": 280433,\n        \"name\": \"Miss Adityanandana Ganaka\",\n        \"email\": \"ganaka_adityanandana_miss@mann-mraz.test\",\n        \"body\": \"Modi reiciendis tempore. Facere odit quia. Earum vero nemo.\"\n    },\n    {\n        \"id\": 188669,\n        \"post_id\": 280433,\n        \"name\": \"Chandani Gandhi Jr.\",\n        \"email\": \"gandhi_chandani_jr@lemke.example\",\n        \"body\": \"Adipisci sit voluptatibus. Qui nemo consequatur.\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Создание комментария к определённому посту",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": " {\r\n        \"name\": \"Mihail\", \r\n        \"email\": \"testmih@bk.ru\",\r\n        \"body\": \"Com about environments\"\r\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/posts/280770/comments",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "posts",
+            "280770",
+            "comments"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Создание комментария к определённому посту",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": " {\r\n        \"name\": \"Mihail\", \r\n        \"email\": \"testmih@bk.ru\",\r\n        \"body\": \"Com about environments\"\r\n    }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://gorest.co.in/public/v2/posts/280770/comments",
+              "protocol": "https",
+              "host": [
+                "gorest",
+                "co",
+                "in"
+              ],
+              "path": [
+                "public",
+                "v2",
+                "posts",
+                "280770",
+                "comments"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 201
+            },
+            {
+              "key": "date",
+              "value": "Sun, 17 May 2026 13:51:22 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "102"
+            },
+            {
+              "key": "location",
+              "value": "https://gorest.co.in/public/v2/comments/189033"
+            },
+            {
+              "key": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "content-security-policy-report-only",
+              "value": "default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-sJIKY+ebyXbWD8Ate54+ag=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"2fcb304d036ea59eb6e2ac6032c7363f\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-ratelimit-limit",
+              "value": "90"
+            },
+            {
+              "key": "x-ratelimit-remaining",
+              "value": "89"
+            },
+            {
+              "key": "x-ratelimit-reset",
+              "value": "1"
+            },
+            {
+              "key": "x-request-id",
+              "value": "765642e6-6e6e-4123-8bea-4ef1c7ecdf01"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.037019"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dIZS7cIXRGv9O%2FEPnK2rdnHKjdraEpNBp9qqVbMIfrV7mEOriBS3pe8mTEM8%2BYyJBWZzJTgaMyd5%2BCAU9aBTMMbgjEMOz6KCZ35StPCHeqKnIex7kF59XV5kbmZLtgc%3D\"}]}"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "9fd318b55c71dabb-ARN"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 189033,\n    \"post_id\": 280770,\n    \"name\": \"Mihail\",\n    \"email\": \"testmih@bk.ru\",\n    \"body\": \"Com about environments\"\n}"
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "a19baac8cc0149311897c9d49a354d684b47d54d95bfb29a7d2bbb72bd9461de ",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
